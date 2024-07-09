@@ -63,9 +63,6 @@
     i3status
     i3lock
     i3-gaps
-    awesome
-    light
-    hilbish
 
  ];
 
@@ -96,18 +93,18 @@
   };
 
  # Enable AwesomeWM
- xsession.windowManager.awesome = {
-   enable = true;
-   luaModules = [
-    
-   ];
-
- };
+ # xsession.windowManager.awesome = {
+ #   enable = true;
+ #   luaModules = [
+ #
+ #   ];
+ #
+ # };
   
   # …
 
   xsession.enable = true;
-  # xsession.windowManager.command = "…";
+  xsession.windowManager.command = "…";
 
 
   # …
