@@ -63,6 +63,10 @@
     i3status
     i3lock
     i3-gaps
+    awesome
+    light
+    hilbish
+
  ];
 
   # Enable home-manager and git
@@ -86,13 +90,16 @@
     };
   };
 
-
+  # Enable pqiv
+  programs.pqiv = {
+    enable = true;
+  };
 
  # Enable AwesomeWM
  xsession.windowManager.awesome = {
    enable = true;
    luaModules = [
-
+    
    ];
 
  };
