@@ -63,6 +63,9 @@
     i3status
     i3lock
     i3-gaps
+    # luarocks
+    # luadbi-mysql
+    
 
  ];
 
@@ -96,6 +99,8 @@
  # xsession.windowManager.awesome = {
  #   enable = true;
  #   luaModules = [
+ #      # luarocks # is the package manager for Lua modules
+ #      # luadbi-mysql # Database abstraction layer
  #
  #   ];
  #
@@ -104,7 +109,7 @@
   # …
 
   xsession.enable = true;
-  xsession.windowManager.command = "…";
+  # xsession.windowManager.command = "…";
 
 
   # …
